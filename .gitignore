@@ -1,0 +1,8 @@
+node_modules
+dist
+test/out
+*.log
+.DS_Store
+smoke.mts
+preview.mjs
+imgtest*.mjs
