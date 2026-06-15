@@ -42,14 +42,15 @@
   },
   "files": [
     "dist",
-    "harness"
+    "harness",
+    "GUIDE.md"
   ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "npm run build"
+    "prepare": "tsup"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.0",
