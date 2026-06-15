@@ -8,7 +8,7 @@
   "homepage": "https://github.com/seangeng/remark-mermaid-tldraw",
   "repository": {
     "type": "git",
-    "url": "github:seangeng/remark-mermaid-tldraw"
+    "url": "git+https://github.com/seangeng/remark-mermaid-tldraw.git"
   },
   "keywords": [
     "remark",
@@ -23,7 +23,7 @@
     "dark-mode"
   ],
   "bin": {
-    "remark-mermaid-tldraw": "./dist/cli.js"
+    "remark-mermaid-tldraw": "dist/cli.js"
   },
   "exports": {
     ".": {
